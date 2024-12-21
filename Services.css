@@ -56,7 +56,7 @@ main {
 .services-hero {
   font-family: sans-serif;
   text-align: center;
-  padding: 5px;
+  padding: 8px;
   background-color: #e0f7fa;
   margin: 25px;
   border-top-left-radius: 100px;
@@ -74,7 +74,7 @@ main {
 .services-hero p {
   font-size: 1.5rem;
   color: #37AFE1;
-  font-family: cursive;
+  font-family: "Times New Roman", Times, serif;
 }
 em{
   font-weight: bold;
