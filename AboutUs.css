@@ -1,0 +1,212 @@
+body {
+    background-color: #E5D9B6;
+}
+
+.home-button{
+    margin-top: 20px;
+    margin-right: 30px;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid green;
+    background: blue;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+}
+
+.home-button:hover{
+    background-color: #ffcc00;
+    color: blue;
+}
+
+
+.about-hero {
+    text-align: center;
+    background: #5E9387;
+    color: white;
+    padding: 0;
+    margin: 30px;
+    font-family: sans-serif;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 1.9);
+}
+
+.about-hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.2px;
+    color: #FF6107;
+}
+
+.about-hero p {
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+.our-story-section {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh; 
+   background-color: #395B64;
+}
+
+.our-story {
+    background-color: #395B64;
+    margin: 30px;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 1.9);
+}
+.our-story h2{
+    font-size: 2rem;
+    color: #FF6107;
+}
+.our-story p{
+    font-size: 1.5rem;
+    font-family: monospace;
+    line-height: 1.1;
+    color: whitesmoke;
+}
+
+.our-values{
+    background-color: #68D2E8;
+    margin: 30px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 1.9);
+    font-family: sans-serif;
+}
+.our-values h2{
+    font-size: 2rem;
+    color: #FF6107;
+}
+.our-values p{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.our-team{
+    background-color: #FBFAE1;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 4px 0 16px rgba(1, 1.5, 1, 1);
+}
+.our-team h2{
+    font-size: 2rem;
+    color: #FF6107;
+    padding: 0;
+}
+.our-team p{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.our-values ul {
+    list-style: none;
+    padding: 5px;
+}
+
+.our-values li {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.team-photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.team-member p {
+  margin-top: -30px;
+  font-size: 1rem;
+  color: #FF6107;
+  font-weight: bold;
+}
+
+.team-photos .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-photos .middle {
+  gap: 30px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  max-width: 120%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 4px 0 16px rgba(1, 1.5, 1, 1);
+}
+
+.call-to-action {
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    background: #e0f7fa;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.call-to-action {
+    margin: 30px;
+}
+.call-to-action h2{
+    font-size: 2rem;
+    color: #FF6107;
+}
+.call-to-action p{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.call-to-action .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.call-to-action .cta-button:hover {
+    background-color: #ffcc00;
+    color: #004080;
+}
+footer {
+    margin: 10px;
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 5px 0;
+}
