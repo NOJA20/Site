@@ -102,7 +102,7 @@ header {
         flex-direction: column;
         position: absolute;
         top: 70px;
-        right: 25px;
+        right: 10px;
         background-color: seagreen;
         width: 150px;
         border-radius: 5px;
@@ -152,7 +152,7 @@ header {
 }
 
 .hotel-description {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
     color: whitesmoke;
     text-align: center;
     font-family: monospace;
